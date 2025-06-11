@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ценораспис и резервация - Phoenix Tennis Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="reservation1.css">
+    <script src="reservation1.js" defer></script>
+</head>
+        
+        <div class="logo">
+            <img src="images/logo1.png" alt="Phoenix Tennis Center">
+        </div>
+    </div>
+
+<div class="intro-text">
+    <h2 class="main-heading">TENNIS</h2>
+    <p>PHOENIX CENTER</p>
+</div>  
+
+<div class="language-switcher">
+    <img src="images/Flag_Bulgaria.jpg" alt="BG" onclick="changeLanguage('bg')">
+    <img src="images/Flag_USA.jpg" alt="EN" onclick="changeLanguage('en')">
+    <img src="images/Flag_Russia.jpg" alt="RU" onclick="changeLanguage('ru')">
+</div>
+
+<!-- Ценова таблица -->
+<section class="pricing-section">
+    
+    <table class="pricing-table">
+
+        <tbody>
+            <tr>
+                <th data-translate="time_period">Часови диапазон</th>
+                <th data-translate="court_price">Цена за корт/час</th>
+                <th data-translate="couch0">Треньори</th>
+                <th data-translate="extra_services">Допълнителни услуги</th>
+            </tr>
+            <tr>
+                <td>08:00 - 12:00</td>
+                <td data-translate="leva">25 BGN</td>
+                <td rowspan="3">
+                    <p data-translate="coach">Боби Борисов - 60лв./30евро</p>
+                    <p data-translate="coach2">Дамян Дамянов - 50лв./25евро</p>
+                    <p data-translate="coach3">Хари Емилов - 40лв./20евро</p>
+                    <p data-translate="coach4">Тенис ментор: Танер Емин - 120лв./60евро</p>
+                </td>
+                <td rowspan="4">
+                    <p data-translate="racket_rental">Ракети: 7 лв./час</p>
+                    <p data-translate="lighting_fee">Осветление (след 20:00): 15 лв.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>12:00 - 16:00</td>
+                <td data-translate="leva1">15 BGN</td>
+            </tr>
+            <tr>
+                <td>16:00 - 00:00</td>
+                <td data-translate="leva2">25 BGN</td>
+        </tbody>
+    </table>
+</section>
+
+<div class="contact-info">
+    <p data-translate="tel">📞 Телефон: <a href="tel:+359876884568">+359 87 688 4568</a></p>
+    <p data-translate="mail">📧 E-mail</E-mail>: <a href="mailto:contact.phoenix.center@gmail.com">contact.phoenix.center@gmail.com</a></p>
+    <p data-translate="maps">📍 <a href="https://maps.app.goo.gl/MPezvj55161GWJLt8" target="_blank">Местоположение</a></p>
+    <p data-translate="social">
+        🔗 Социални мрежи:
+        <a href="https://www.facebook.com/phoenixtenniscenterr?locale=bg_BG" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/tennis_center_phoenix?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+    </p>
+</div>
+
+<div class="site-under-construction">
+    <p data-translate="processing">⚠️ Сайтът е в процес на обработка ⚠️</p>
+</div>
+
+</body>
+</html>
